@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot-crud
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: JARVIS
+Implementation-Vendor-Id: com.solrwithspringboot
+Build-Jdk: 1.8.0_341
+Implementation-URL: https://spring.io/projects/spring-boot/springboot-
+ crud
+Created-By: Maven Integration for Eclipse
+
