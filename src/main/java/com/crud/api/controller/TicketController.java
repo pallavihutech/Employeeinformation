@@ -96,6 +96,10 @@ public class TicketController implements Endpoints {
 		attendanceRepo.save(at);
 		return "Login Time Captured";
 	}
+	@GetMapping("/hello")
+	public String getHello() {
+		return "Hello from heroku";
+	}
 
 	@PutMapping("/logoutTime/{id}")
 	public String getLogOutTime(@PathVariable Long id, Date logOutTime, String attendanceToken) throws Exception {
